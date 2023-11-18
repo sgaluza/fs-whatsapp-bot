@@ -1,0 +1,27 @@
+{
+  "name": "fs-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgaluza/fs-whatsapp-bot.git"
+  },
+  "author": "Sergey Galuza (MariSMa)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sgaluza/fs-whatsapp-bot/issues"
+  },
+  "homepage": "https://github.com/sgaluza/fs-whatsapp-bot#readme",
+  "devDependencies": {
+    "@types/node": "^20.9.1",
+    "fastify": "^4.24.3",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "twilio": "^4.19.0"
+  }
+}
