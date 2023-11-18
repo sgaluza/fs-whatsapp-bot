@@ -37,10 +37,10 @@ export class User extends Document<{
         });
     }
 
-    static async findThreadIdByWhatsappId(whatsappId: string) {
+    static async findThreadIdByWhatsappId(whatsappId: string): Promise<string | null> {
         const user = await this.findOne({ whatsappId: whatsappId });
         if (user) {
-            return user.threadId;
+            return user.threadId as string;
         } else {
             return null;
         }
